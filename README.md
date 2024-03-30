@@ -394,13 +394,129 @@ console.log(livrosMaisDe300Paginas);
 ![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/a11dfbc8-f811-4131-b0dd-5a6d228e48e2)
 
 
-### 7.
+### 7. Crie uma classe Carro com os atributos marca e ano. Crie um array de objetos Carro e encontre o primeiro carro da marca "Toyota" e filtre os carros fabricados após 2010
 
-### 8.
 
-### 9 .
+class Carro {
+    constructor(marca, ano) {
+        this.marca = marca;
+        this.ano = ano;
+    }
+}
 
-### 10. 
+
+var carros = [
+    new Carro("Toyota", 2005),
+    new Carro("Bmw", 2015),
+    new Carro("Toyota", 2012),
+    new Carro("Porsche", 2018),
+    new Carro("Toyota", 2014)
+];
+
+var primeiroCarroToyota = carros.find(carro => carro.marca === "Toyota");
+
+
+var carrosFabricadosApos2010 = carros.filter(carro => carro.ano > 2010);
+
+console.log("Primeiro carro da marca Toyota:");
+console.log(primeiroCarroToyota);
+
+console.log("Carros fabricados após 2010:");
+console.log(carrosFabricadosApos2010);
+
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/bef1c108-1e28-46b1-9222-a7832258bc83)
+
+
+### 8. Crie uma classe Produto com os atributos nome e preco. Crie um array de objetos Produto e mapeie esses produtos para um novo array com os preços aumentados em 10%
+
+class Produto {
+    constructor(nome, preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
+}
+
+var produtos = [
+
+    new Produto("Brinco", 20),
+    new Produto("Camiseta", 60),
+    new Produto("Calça", 90),
+    new Produto("Tênis", 500),
+    new Produto("Boné", 50),
+    new Produto("Corrente", 180),
+    
+];
+
+
+var produtosComAumento = produtos.map(produto => {
+    return new Produto(produto.nome, produto.preco * 1.1);
+});
+
+console.log("Produtos com os preços aumentados em 10%:");
+console.log(produtosComAumento);
+
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/d7bc9f5b-efd9-4bbf-9208-aec20d617c8f)
+
+
+### 9 . Utilizando a classe Produto, encontre o primeiro produto com preço superior a R$ 100,00 e altere o nome desse produto para "Produto Caro"
+
+
+class Produto {
+    constructor(nome, preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
+}
+
+var produtos = [
+
+    new Produto("Relogio", 200),
+    new Produto("Brinco", 20),
+    new Produto("Camiseta", 60),
+    new Produto("Calça", 90),
+    new Produto("Tênis", 500),
+    new Produto("Boné", 50),
+    new Produto("Corrente", 180)
+
+];
+
+var primeiroProdutoCaro = produtos.find(produto => produto.preco > 100);
+
+produtos.map(produto => {
+    if (produto === primeiroProdutoCaro) {
+        produto.nome = "Produto Caro";
+    }
+    return produto;
+});
+
+console.log("Produtos após a alteração:");
+console.log(produtos);
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/57aa4db7-fff7-4115-9f25-be276d680f85)
+
+
+### 10. Crie um array de números e filtre apenas os números divisíveis por 3. Em seguida, mapeie esses números para o quadrado de seus valores
+
+var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+var numerosDivisiveisPor3 = numeros.filter(numero => numero % 3 === 0);
+
+var quadradoDosNumeros = numerosDivisiveisPor3.map(numero => numero ** 2);
+
+console.log("Números originais:", numeros);
+
+console.log("Números divisíveis por 3:", numerosDivisiveisPor3);
+
+console.log("Quadrados dos números divisíveis por 3:", quadradoDosNumeros);
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/306756dc-2073-445b-b5d9-818d9c3f2f3b)
+
 
 
 ## ATIVIDADES DO DIA 01/03
