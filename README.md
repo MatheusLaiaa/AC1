@@ -216,6 +216,193 @@ console.log(verificarPalindromo("revive"));
 
 ## ATIVIDADES DO DIA 23/02
 
+### 1. Crie uma classe Usuario com os atributos nome e idade. Em seguida, crie um array de objetos Usuario e crie um novo array apenas com os nomes dos usuários em letras maiúsculas.Faça um programa que mostre os números impares em um intervalo de 0 a 100
+
+
+class Usuario {
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+var usuarios = [
+    new Usuario("Matheus", 19),
+    new Usuario("Ricardo", 38),
+    new Usuario("Sheila", 42)
+];
+
+
+var nomesEmMaiusculas = usuarios.map(usuario => usuario.nome.toUpperCase());
+
+
+console.log("Nomes em letras maiúsculas:", nomesEmMaiusculas);
+
+
+console.log("Números ímpares de 0 a 100:");
+for (var i = 1; i <= 100; i += 2) {
+    console.log(i);
+}
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/823347fe-e064-4c15-8ffa-6a6f8dc950b1)
+
+
+### 2. Continuando com a classe Usuario, filtre os usuários com idade superior a 18 anos
+
+
+class Usuario {
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+var usuarios = [
+    new Usuario("Matheus", 19),
+    new Usuario("Ricardo", 38),
+    new Usuario("Sheila", 42),
+    new Usuario("Isabelle", 11),
+
+];
+
+var usuariosMaioresDe18 = usuarios.filter(usuario => usuario.idade > 18);
+
+
+console.log("Usuários com idade superior a 18 anos:");
+console.log(usuariosMaioresDe18);
+
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/021d930e-594e-4cbf-9701-b5ecc448640e)
+
+
+
+### 3. Utilizando a classe Usuario, encontre o primeiro usuário com idade entre 25 e 30 anos
+
+
+class Usuario {
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+
+var usuarios = [
+    new Usuario("Matheus", 19),
+    new Usuario("Ricardo", 38),
+    new Usuario("Sheila", 42),
+    new Usuario("Isabelle", 11),
+    new Usuario("Joao", 25),
+];
+
+
+var primeiroUsuarioEntre25e30 = usuarios.find(usuario => usuario.idade >= 25 && usuario.idade <= 30);
+
+
+console.log("Primeiro usuário com idade entre 25 e 30 anos:");
+console.log(primeiroUsuarioEntre25e30);
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/74f007e1-ad00-41f4-90cc-d30597590c51)
+
+
+### 4. Crie um array de números e filtre apenas os números pares. Em seguida, mapeie esses números para o dobro de seus valores
+
+
+var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+var numerosPares = numeros.filter(numero => numero % 2 === 0);
+
+var numerosDobro = numerosPares.map(numero => numero * 2);
+
+console.log("Números originais:", numeros);
+
+console.log("Números pares:", numerosPares);
+
+console.log("Números pares com o dobro de seus valores:", numerosDobro);
+
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/05671cca-349f-49c0-bed9-1b42872b99fd)
+
+
+### 5.Crie uma classe Animal com os métodos emitirSom e correr. Crie subclasses Cachorro e Gato que herdam de Animal e implementam o método emitirSom de forma diferente para cada classe.
+
+class Animal {
+    emitirSom() {
+        console.log("Som genérico do animal");
+    }
+    
+    correr() {
+        console.log("correndo");
+    }
+}
+
+class Cachorro extends Animal {
+    emitirSom() {
+        console.log("au au au");
+    }
+}
+
+// Definição da subclasse Gato
+class Gato extends Animal {
+    emitirSom() {
+        console.log("aiau");
+    }
+}
+
+// Testes das classes
+var cachorro = new Cachorro();
+cachorro.emitirSom();
+cachorro.correr(); 
+
+var gato = new Gato();
+gato.emitirSom(); 
+gato.correr(); 
+
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/881735a0-411a-408d-b578-b9043e1145ef)
+
+### 6. Crie uma classe Livro com os atributos titulo e paginas. Crie um array de objetos Livro e filtre os livros com mais de 300 páginas
+
+class Livro {
+    constructor(titulo, paginas) {
+        this.titulo = titulo;
+        this.paginas = paginas;
+    }
+}
+
+var livros = [
+    new Livro("Diario de um banana", 267),
+    new Livro("Guerra e Paz", 1225),
+    new Livro("A formula Mágica", 976),
+    new Livro("Racionais", 134),
+    new Livro("Abel Ferreira", 624)
+];
+
+var livrosMaisDe300Paginas = livros.filter(livro => livro.paginas > 300);
+
+console.log("Livros com mais de 300 páginas:");
+console.log(livrosMaisDe300Paginas);
+
+
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/a11dfbc8-f811-4131-b0dd-5a6d228e48e2)
+
+
+### 7.
+
+### 8.
+
+### 9 .
+
+### 10. 
+
+
 ## ATIVIDADES DO DIA 01/03
 
 ## ATIVIDADES DO DIA 08/03
