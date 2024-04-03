@@ -523,6 +523,174 @@ console.log("Quadrados dos números divisíveis por 3:", quadradoDosNumeros);
 
 ## ATIVIDADES DO DIA 08/03
 
+## FORMULARIO HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://65eb975643ce164189340e8e.mockapi.io/api/test/users" method="post">
+        <div>
+            <label for="nome" >Nome:</label>
+            <input type="text" id="nome" name="usuario_nome" placeholder="Digite o nome..."/>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="usuario_email" placeholder="Digite o email..."/>
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea name="usuario_msg" id="msg"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+    </form>
+</body>
+</html>
+
+## EXERCICIO CURSO 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Curso</title>
+</head>
+<body>
+    <form action="https://65ebaae143ce16418934242d.mockapi.io/api/exercicio/Curso" method="post">
+        <div>
+            <label for="nome_curso_escolhido" >Nome Curso Escolhido:</label>
+            <input type="text" id="nome_Curso" name="nome_curso"  required/>
+        </div>
+        <div>
+            <label for="data_ingresso">Data de ingresso:</label>
+            <input type="text" id="dataIngresso" name="data_ingresso" requerid/>
+        </div>
+        <div>
+            <label for="valor">Valor:</label>
+            <input type="number" id="valor" name="valor_curso" required/>
+        </div>
+        <div>
+            <label for="forma_pagamento" >Forma de pagamento:</label>
+            <input type="number" id="formaPagamento" name="forma_pagamento"/>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+    </form>
+</body>
+</html>
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/851da8c9-c31d-481b-aa44-7617100b33cf)
+
+
+## ATIVIDADES DO DIA 15/03
+
+# CSS
+
+/* 1. Altere a cor do fundo para uma tonalidade de marrom claro, o tamanho do texto para
+40px, cor da letra branca, alinhe o texto no centro e a fonte da letra para “Lucida Sans” */
+
+h1 {
+    background-color: rgb(124, 109, 91);
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+
+/* 2. Ao passar o mouse sobre o título o fundo deve mudar para a cor preta.
+3. O conteúdo da página deve ser mostrado com a fonte “Arial”.
+4. Todos os parágrafos devem ter um recuo de 20px.
+ */
+
+ h1:hover {
+    background-color: black;
+ }
+
+ /* 3. O conteúdo da página deve ser mostrado com a fonte “Arial”. */
+
+ p {
+    font-family: Arial;
+ }
+ /* 4. Todos os parágrafos devem ter um recuo de 20px.
+ */
+ p {
+    margin-left: 20px;
+ }
+ /* 5. O título introdutório da lista ordenada que possui a escrita: “Conceitos Fundamentais
+de CSS:” deve estar com seu texto em negrito e a letra deve ter o tamanho de 20x.*/
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*6. Os itens da lista devem estar com alinhamento justificado*/
+
+li {
+    justify-content: center;
+}
+
+/* 7. Todo o conteúdo da página precisa ter um espaçamento superior e inferior de 50px e os
+lados precisam ter um espaçamento de 200px */
+
+body {
+    margin: 50px 200px;
+}
+
+
+# HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Exercício Aula5</title>
+</head>
+
+<body>
+    <h1>Cascading Style Sheets (CSS): Uma Introdução</h1>
+
+    <p>Cascading Style Sheets (CSS) é uma linguagem de estilo usada para descrever a apresentação de
+        um documento HTML (ou XML). Enquanto o HTML fornece a estrutura de uma página da web,
+        o CSS permite que você altere a aparência dessa estrutura.
+        Com CSS, você pode controlar coisas como cores, fontes, espaçamento, layout e muito mais. A
+        separação de conteúdo (HTML) e estilo (CSS) é uma prática essencial para o desenvolvimento
+        web moderno, pois permite uma manutenção mais fácil, reutilização de código e flexibilidade
+        de design.</p>
+
+    <h3>Conceitos Fundamentais de CSS:</h3>
+    <ol>
+        <li>Seletor: Um seletor é usado para selecionar os elementos HTML aos quais você deseja
+            aplicar estilos. Pode ser um elemento HTML específico, uma classe ou um ID.</li>
+        <li>Propriedades: As propriedades são características individuais que você deseja alterar,
+            como cor, tamanho da fonte, margens, etc.</li>
+        <li>Valor: Cada propriedade tem um valor associado que define como essa propriedade
+            deve ser aplicada. Por exemplo, uma cor pode ser definida como "vermelho" ou um
+            tamanho de fonte como "14px".</li>
+        <li>Declaração: Uma declaração é composta por uma propriedade e um valor, separados
+            por dois pontos, e terminados por um ponto e vírgula. Por exemplo, color: blue; é uma
+            declaração que define a cor do texto como azul.</li>
+        <li>Regras CSS: As regras CSS consistem em um seletor e um conjunto de declarações.
+            Quando um navegador encontra uma regra CSS, ele aplica as declarações associadas aos
+            elementos correspondentes.</li>
+    </ol>
+    
+</body>
+
+</html>
+
 ## ATIVIDADES DO DIA 22/03
 
 ### 1. Crie uma estrutura HTML básica com uma <div> para a barra lateral e outra <div> para o conteúdo principal. -->
