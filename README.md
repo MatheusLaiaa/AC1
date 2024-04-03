@@ -524,3 +524,91 @@ console.log("Quadrados dos números divisíveis por 3:", quadradoDosNumeros);
 ## ATIVIDADES DO DIA 08/03
 
 ## ATIVIDADES DO DIA 22/03
+
+### 1. Crie uma estrutura HTML básica com uma <div> para a barra lateral e outra <div> para o conteúdo principal. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Aula 6</title>
+</head>
+<body>
+    <div class="side-bar">
+        <ul>
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Seja bem-vindo ao site</h1>
+        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia harum quisquam.</p>
+    </div>
+    
+</body>
+</html>
+
+
+### 2. Estilize a barra lateral com as seguintes propriedades:
+##  Largura de 20% da largura total da página.
+###  Altura de 100% da altura da janela de visualização.
+###  Cor de fundo diferente da cor de fundo do conteúdo principal.
+###  Conteúdo de texto dentro da barra lateral, como links de navegação.
+
+
+### 3. Estilize o conteúdo principal com as seguintes propriedades:
+### Largura de 80% da largura total da página.
+###  Altura de 100% da altura da janela de visualização.
+###  Cor de fundo diferente da cor de fundo da barra lateral.
+###  Alinhe o conteúdo no centro vertical e horizontalmente.
+
+### 4. Use a propriedade float para fazer com que a barra lateral flutue à esquerda e o conteúdo principal flutue à direita.
+
+### 5. Use a propriedade position para posicionar a barra lateral e o conteúdo principal de forma que eles ocupem toda a altura da janela de visualização, independentemente do tamanho do conteúdo.
+
+### 6. Teste o layout redimensionando a janela do navegador para verificar se ele éresponsivo. 
+
+ 
+ {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(228, 226, 226);
+}
+
+.side-bar {
+    padding-top: 20px;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(74, 74, 252);
+    color: #fff;
+    float: left;
+    position: fixed;
+}
+.side-bar li{
+    
+    list-style: none;
+    
+}
+.side-bar a{
+    padding-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    width: 80%;
+    height: 100%;
+    padding-top: 350px;
+    float: right;
+    text-align: center;
+}
+
+.main-content p {
+    margin-top: 20px;
+}
