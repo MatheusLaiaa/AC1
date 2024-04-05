@@ -184,4 +184,4 @@
 
 ## AULA 06 - ATIVIDADES DO DIA 22/03
 
-### 1. Crie uma estrutura HTML básica com uma <div> para a barra lateral e outra <div> para o conteúdo principal. -->
+
