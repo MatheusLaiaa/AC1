@@ -531,71 +531,9 @@ console.log("Quadrados dos números divisíveis por 3:", quadradoDosNumeros);
 
 ## ATIVIDADES DO DIA 08/03
 
-## FORMULARIO HTML
+### FORMULARIO HTML
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form action="https://65eb975643ce164189340e8e.mockapi.io/api/test/users" method="post">
-        <div>
-            <label for="nome" >Nome:</label>
-            <input type="text" id="nome" name="usuario_nome" placeholder="Digite o nome..."/>
-        </div>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="usuario_email" placeholder="Digite o email..."/>
-        </div>
-        <div>
-            <label for="msg">Mensagem:</label>
-            <textarea name="usuario_msg" id="msg"></textarea>
-        </div>
-        <div class="button">
-            <button type="submit">Enviar sua mensagem</button>
-        </div>
-    </form>
-</body>
-</html>
-
-## EXERCICIO CURSO 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário Curso</title>
-</head>
-<body>
-    <form action="https://65ebaae143ce16418934242d.mockapi.io/api/exercicio/Curso" method="post">
-        <div>
-            <label for="nome_curso_escolhido" >Nome Curso Escolhido:</label>
-            <input type="text" id="nome_Curso" name="nome_curso"  required/>
-        </div>
-        <div>
-            <label for="data_ingresso">Data de ingresso:</label>
-            <input type="text" id="dataIngresso" name="data_ingresso" requerid/>
-        </div>
-        <div>
-            <label for="valor">Valor:</label>
-            <input type="number" id="valor" name="valor_curso" required/>
-        </div>
-        <div>
-            <label for="forma_pagamento" >Forma de pagamento:</label>
-            <input type="number" id="formaPagamento" name="forma_pagamento"/>
-        </div>
-        <div class="button">
-            <button type="submit">Enviar sua mensagem</button>
-        </div>
-    </form>
-</body>
-</html>
-
-![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/851da8c9-c31d-481b-aa44-7617100b33cf)
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/06680d93-d8b4-46ca-abe7-63df3a0f7ba5)
 
 
 ## ATIVIDADES DO DIA 15/03
