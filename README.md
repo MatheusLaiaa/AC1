@@ -170,7 +170,7 @@
 ## AULA 5 - ATIVIDADES DO DIA 15/03
 
 
-![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/637f4b21-08d6-451b-8468-d11d94a9f578)
+
 
 
 ## AULA 06 - ATIVIDADES DO DIA 22/03
