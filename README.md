@@ -525,6 +525,8 @@ console.log("Quadrados dos números divisíveis por 3:", quadradoDosNumeros);
 
 ![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/e6ecaf34-cf33-407e-8fe5-95c02d100c67)
 
+### 2 - Crie a seguinte página abaixo
+
 
 
 ## ATIVIDADES DO DIA 08/03
