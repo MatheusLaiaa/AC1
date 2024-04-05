@@ -1,6 +1,6 @@
 # ATIVIDADE AVALIATIVA AC1
 
-## ATIVIDADES DO DIA 16/02
+## AULA 1 - ATIVIDADES DO DIA 16/02
 
 ### 1. Escreva um programa que declare duas variáveis numéricas e realize as quatro operações matemáticas básicas (+, -, *, /). Imprima os resultados no console.
 
@@ -74,7 +74,7 @@
 
 
 
-## ATIVIDADES DO DIA 23/02
+## AULA 2 - ATIVIDADES DO DIA 23/02
 
 ### 1. Crie uma classe Usuario com os atributos nome e idade. Em seguida, crie um array de objetos Usuario e crie um novo array apenas com os nomes dos usuários em letras maiúsculas.Faça um programa que mostre os números impares em um intervalo de 0 a 100
 
@@ -149,7 +149,7 @@
 
 
 
-## ATIVIDADES DO DIA 01/03
+## AULA 3 -  ATIVIDADES DO DIA 01/03
 
 ### 1 - Utilizando as tags para a marcação de texto definidas no slide “4- Web02 HTML 5”, crie uma página html com o formato abaixo:
 
@@ -157,23 +157,23 @@
 
 ### 2 - Crie a seguinte página abaixo
 
+![mouse](https://github.com/MatheusLaiaa/AC1/assets/144149403/690a51de-35fa-47f0-b8bc-bddfdda6ff3f)
 
 
-## ATIVIDADES DO DIA 08/03
+## AULA 4 - ATIVIDADES DO DIA 08/03
 
 ### FORMULARIO HTML
 
 ![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/06680d93-d8b4-46ca-abe7-63df3a0f7ba5)
 
 
-## ATIVIDADES DO DIA 15/03
-
+## AULA 5 - ATIVIDADES DO DIA 15/03
 
 
 ![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/637f4b21-08d6-451b-8468-d11d94a9f578)
 
 
-## ATIVIDADES DO DIA 22/03
+## AULA 06 - ATIVIDADES DO DIA 22/03
 
 ### 1. Crie uma estrutura HTML básica com uma <div> para a barra lateral e outra <div> para o conteúdo principal. -->
 
