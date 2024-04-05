@@ -160,6 +160,14 @@
 ![mouse](https://github.com/MatheusLaiaa/AC1/assets/144149403/690a51de-35fa-47f0-b8bc-bddfdda6ff3f)
 
 
+
+### 3 – Monte o código necessário para as seguintes tabelas
+
+
+![image](https://github.com/MatheusLaiaa/AC1/assets/144149403/b0bba9cd-1f10-4e37-a89f-4ea06705426e)
+
+
+
 ## AULA 4 - ATIVIDADES DO DIA 08/03
 
 ### FORMULARIO HTML
