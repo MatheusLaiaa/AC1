@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos de Extensão</title>
+</head>
+<body>
+    <h1>Cursos de Extensão</h1>
+    <ul>
+        <li>
+            <h2><a href="inscricao.html?codigo=1">Curso 1</a></h2>
+            <p>Descrição do curso 1</p>
+            <p>Turno/horário: Tarde</p>
+            <p>Professores: Prof. A, Prof. B</p>
+            <p>Valor: R$ 500,00</p>
+        </li>
+        <li>
+            <h2><a href="inscricao.html?codigo=2">Curso 2</a></h2>
+            <p>Descrição do curso 2</p>
+            <p>Turno/horário: Manhã</p>
+            <p>Professores: Prof. C, Prof. D</p>
+            <p>Valor: R$ 600,00</p>
+        </li>
+        <!-- Demais cursos -->
+    </ul>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+</head>
+<body>
+    <h1>Inscrição</h1>
+    <form action="salvar.php" method="post">
+        <fieldset>
+            <legend>Dados do Aluno</legend>
+            <label for="nome_aluno">Nome: *</label>
+            <input type="text" id="nome_aluno" name="nome_aluno" required>
+            <br>
+            <label for="endereco_aluno">Endereço:</label>
+            <input type="text" id="endereco_aluno" name="endereco_aluno">
+            <br>
+            <label for="bairro_aluno">Bairro:</label>
+            <input type="text" id="bairro_aluno" name="bairro_aluno">
+            <br>
+            <label for="cidade_aluno">Cidade:</label>
+            <input type="text" id="cidade_aluno" name="cidade_aluno">
+            <br>
+            <label for="numero_aluno">Número:</label>
+            <input type="text" id="numero_aluno" name="numero_aluno">
+            <br>
+            <label for="cep_aluno">CEP:</label>
+            <input type="text" id="cep_aluno" name="cep_aluno">
+            <br>
+            <label for="complemento_aluno">Complemento:</label>
+            <input type="text" id="complemento_aluno" name="complemento_aluno">
+            <br>
+            <label for="estado_aluno">Estado:</label>
+            <input type="text" id="estado_aluno" name="estado_aluno">
+            <br>
+            <label for="telefone_aluno">Telefone:</label>
+            <input type="text" id="telefone_aluno" name="telefone_aluno">
+            <br>
+            <label for="celular_aluno">Celular: *</label>
+            <input type="text" id="celular_aluno" name="celular_aluno" required>
+            <br>
+            <label for="email_aluno">E-mail: *</label>
+            <input type="email" id="email_aluno" name="email_aluno" required>
+            <br>
+            <label for="cor_aluno">Cor: *</label>
+            <input type="color" id="cor_aluno" name="cor_aluno" required>
+        </fieldset>
+        <fieldset>
+            <legend>Dados do Pai</legend>
+            <label for="nome_pai">Nome: *</label>
+            <input type="text" id="nome_pai" name="nome_pai" required>
+            <br>
+            <label for="data_nascimento_pai">Data de Nascimento:</label>
+            <input type="date" id="data_nascimento_pai" name="data_nascimento_pai">
+            <br>
+            <label for="naturalidade_pai">Naturalidade:</label>
+            <input type="text" id="naturalidade_pai" name="naturalidade_pai">
+            <br>
+            <label for="instrucao_pai">Instrução:</label>
+            <input type="text" id
