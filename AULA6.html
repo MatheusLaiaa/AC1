@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two-Column Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #sidebar {
+            float: left;
+            width: 20%;
+            height: 100vh;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        #content {
+            float: left;
+            width: 80%;
+            height: 100vh;
+            background-color: #dddddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        <h3>Barra Lateral</h3>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <h1>Conteúdo Principal</h1>
+        <p>Este é o conteúdo principal da página.</p>
+    </div>
+</body>
+</html>
